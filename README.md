@@ -1,4 +1,4 @@
-# Welcome to my Secret Base
+## Welcome to my Secret Base
 
 어둠이 드리워질 때도 겁내지 마
 
@@ -19,6 +19,3 @@
 - Site: **<https://luminouscl.github.io>**
 
 - WeChat: **tianyeo**
-
-<!-- .slide vertical=true -->
-
