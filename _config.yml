@@ -11,8 +11,11 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://www.linkedin.com/in/tianye-arthur-zhu-876915161/">
     <i class="fab fa-linkedin"></i>
   </a>
-  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=60 
-  src="//music.163.com/outchain/player?type=2&id=1467471950&auto=1&height=40">
+  <a href="https://www.instagram.com/ins_arthurcl/?hl=en">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 
+  src="//music.163.com/outchain/player?type=2&id=1467471950&auto=1&height=32"></iframe>
   </iframe>
 
 url: https://luminouscl.github.io/ # 你的域名，例如 https://wu-kan.github.io
@@ -93,7 +96,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     "mode": "fixed",
                     "hidden": true,
                     "content": {
-                      "link": ["https:\/\/jekyll-theme-WuK.wu-kan.cn"],
                       "skin": ["咦？需要我变身吗？", "⭐️魔法少女 变身！⭐️"],
                       "hidden": true,
                       "custom": [{
@@ -364,7 +366,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "10/04/2017 11:03:56")// 这是我第一篇CSDN博客的时间
+                    "10/01/2020 12:00:00")// 
                   </script>
                 </div>
               - | # 不蒜子页面统计，看不懂可不改
@@ -395,8 +397,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
 
               - | # Copyright声明
                 <div>
-                  <i class="fas fa-copyright fa-fw"></i>
-                  2017-2020 WuK
+                 <i class="far fa-copyright"></i>
+                  2020-2025 LuminousCL
                 </div>
 
             wordcount: # 全站字数统计
@@ -556,7 +558,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           visitor: # 需要引入并开启valine的visitor选项使之开始计数
             enable: true
             prepend: <i class="fas fa-book-reader fa-fw"></i>
-            unit: tines
+            unit: times
           tags: # 显示博文标签
             enable: true
             prepend: <i class="fas fa-tag fa-fw"></i>
@@ -699,9 +701,9 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-seo-tag # 为每个页面生成标题
   - jekyll-sitemap # 为站点生成站点地图
   - jekyll-feed # 为站点生成RSS源
-  - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离，详见<https://github.com/benbalter/jekyll-remote-theme/>
+  - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离
 
-remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@4.0.1 #使用固定版本号以防止主题更新导致站点显示错乱
+remote_theme: https://luminouscl.github.io #使用固定版本号以防止主题更新导致站点显示错乱
 
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   with_frontmatter: true # 支持带有yaml头的README
