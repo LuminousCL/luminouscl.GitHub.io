@@ -1,9 +1,7 @@
 title: LuminousCL # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  어둠이 드리워질 때도 겁내지 마<br/>
-  너무 아름다워서 꽃잎 활짝 펴서<br/>
-  언제나 사랑받는 아이 YoU<br/>
-  今晚的星星很美 你要不要来陪我<br/>
+  今晚的星星很美<br/>
+  你要不要来陪我<br/>
   <a href="mailto:tianyezhu@umass.edu">
     <i class="fas fa-envelope"></i>
   </a>
@@ -13,7 +11,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://www.linkedin.com/in/tianye-arthur-zhu-876915161/">
     <i class="fab fa-linkedin"></i>
   </a>
-  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=60
   src="//music.163.com/outchain/player?type=2&id=1467471950&auto=1&height=66">
   </iframe>
 
