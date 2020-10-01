@@ -96,6 +96,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     "mode": "fixed",
                     "hidden": true,
                     "content": {
+                      "link": ["https:\/\/jekyll-theme-WuK.wu-kan.cn"],
                       "skin": ["咦？需要我变身吗？", "⭐️魔法少女 变身！⭐️"],
                       "hidden": true,
                       "custom": [{
@@ -398,7 +399,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                  <i class="far fa-copyright"></i>
-                  2020-2025 LuminousCL
+                  2017-2020 WuK
                 </div>
 
             wordcount: # 全站字数统计
