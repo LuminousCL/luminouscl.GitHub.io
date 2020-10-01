@@ -1,22 +1,24 @@
-# 星合の空
+# Welcome to my Secret Base
 
-欢迎访问我的个人主页！下面向你介绍一下我自己吧~
+어둠이 드리워질 때도 겁내지 마
 
-<!-- .slide -->
+너무 아름다워서 꽃잎 활짝 펴서
 
-## 我的一些联系方式
-
-- Address: **Sun Yat-sen University - 132 Waihuan East Rd. - Guangzhou, China**
-- Phone: **+86 18756280097**
-- Site: **<https://wu-kan.cn>**
+언제나 사랑받는 아이 YoU
 
 <!-- .slide vertical=true -->
 
-- E-mail:
-  - **[i@wu-kan.cn](mailto:i@wu-kan.cn)**
-  - **[wukan3@mail2.sysu.edu.cn](mailto:wukan3@mail2.sysu.edu.cn)**
-- WeChat: **Wu-\_-Kan**
-- QQ: **942759535**
+## About Me
 
-<!-- .slide -->
+- Address: **1281 Lawrence Station Road Apt 181 - Sunnyvale, USA**
+
+- Phone: **+86 17887944006**
+
+  ​	     	 **+1 5713155979**
+
+- Site: **<https://luminouscl.github.io>**
+
+- WeChat: **tianyeo**
+
+<!-- .slide vertical=true -->
 
