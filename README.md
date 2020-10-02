@@ -11,17 +11,21 @@
 ### About Me
 
 Hi, this is Arthur :)
-I'm a software engineer working on full-stack development, and  I'm also learning game grogramming, cloud computing, machine learning and mobile development.
+
+I'm a software engineer working on full-stack development, and  I'm also interested in game grogramming, cloud computing, machine learning and mobile development.
 
 Now I'm focused on:
 
 1. Improving my code quality;
-2. Combining machine learning with web development
-3. Implementing IaaS based on OpenStack.
+2. Combining ML with web development
 
-In my spare time, I love to play PS4/Switch, animation design, cook some food, enjoy pop music, and dabble in making art. It would be my honor to make acquaintance with you. 
+In my spare time, I love to play PS4 / Switch, animation design, cook some food, enjoy pop music, and dabble in making art. It would be my honor to make acquaintance with you. 
+
+<!-- .slide vertical=true -->
+
+### Contact Me
 
 - Address:  **1281 Lawrence Station Road Apt 181 - Sunnyvale, USA**
 - Phone:  **+86 17887944006**
 - WeChat:  **tianyeo**
-- Site:  **<https://luminouscl.github.io>**
+- GitHub:  [LuminousCL](https://github.com/LuminousCL)
