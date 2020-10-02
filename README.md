@@ -19,7 +19,7 @@ Now I'm focused on:
 1. Improving my code quality;
 2. Combining ML with web development
 
-In my spare time, I love to play PS4 / Switch, animation design, cook some food, enjoy pop music, and dabble in making art. It would be my honor to make acquaintance with you. 
+In my spare time, I love to play PS4 / Switch, design animation, cook, enjoy pop music, and dabble in making art. It would be my honor to make acquaintance with you. 
 
 <!-- .slide vertical=true -->
 
