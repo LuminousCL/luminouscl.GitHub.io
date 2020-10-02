@@ -228,8 +228,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /tags/
               - title: '<i class="fas fa-archive fa-fw"></i> 归档'
                 href: /archive/
-              - title: '<i class="far fa-images"></i> 设计'
-                href: /design/
               - title: '<i class="fas fa-coffee fa-fw"></i> 支持'
                 href: /merger/
             simple_jekyll_search: # 侧边栏的全站搜索
@@ -402,6 +400,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   <i class="fas fa-copyright fa-fw"></i>
                   2020-2025 LuminousCL
                 </div>
+              - | # 萌备
+                <a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20200905" target="_blank"> 20200905号</a>
 
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
