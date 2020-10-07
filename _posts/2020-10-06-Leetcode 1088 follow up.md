@@ -1,5 +1,5 @@
 ---
-title:  Leetcode 1088
+title:  Leetcode 1088 follow up
 tags:
   - 算法
 
@@ -7,13 +7,13 @@ tags:
 
 
 
-### Leetcode 1088.Confusing Number II
+### Leetcode 1088. Minimum Add to Make Parentheses Valid(follow up)
 
 We can rotate digits by 180 degrees to form new digits. When 0, 1, 6, 8, 9 are rotated 180 degrees, they become 0, 1, 9, 8, 6 respectively. When 2, 3, 4, 5 and 7 are rotated 180 degrees, they become invalid.
 
 A *confusing number* is a number that when rotated 180 degrees becomes a **different** number with each digit valid.(Note that the rotated number can be greater than the original number.)
 
-Given a positive integer `N`, return the number of confusing numbers between `1` and `N` inclusive.
+Given a positive integer `N`, return all confusing numbers between `1` and `N` inclusive.
 
 
 
@@ -21,7 +21,7 @@ Given a positive integer `N`, return the number of confusing numbers between `1`
 
 ```
 Input: 20
-Output: 6
+Output: [6,9,10,16,18,19]
 Explanation: 
 The confusing numbers are [6,9,10,16,18,19].
 6 converts to 9.
@@ -30,13 +30,6 @@ The confusing numbers are [6,9,10,16,18,19].
 16 converts to 91.
 18 converts to 81.
 19 converts to 61.
-```
-
-```
-Input: 100
-Output: 19
-Explanation: 
-The confusing numbers are [6,9,10,16,18,19,60,61,66,68,80,81,86,89,90,91,98,99,100].
 ```
 
 
@@ -51,13 +44,13 @@ The confusing numbers are [6,9,10,16,18,19,60,61,66,68,80,81,86,89,90,91,98,99,1
 
 
 
-**Solution 1:  常规**
+**Solution 1: 常规 ** 
 
 ```java
 import java.util.*;
 
-public class Confusing_Number_II {
-    public int confusingNumberII(int N) {
+public class Confusing_Number_III {
+    public List<Integer> confusingNumberIII(int N) {
         Map<Integer, Integer> map = new HashMap<>();
         map.put(6, 9);
         map.put(9, 6);
@@ -65,7 +58,7 @@ public class Confusing_Number_II {
         map.put(1, 1);
         map.put(8, 8);
 
-        int count = 0;
+        List<Integer> result = new ArrayList<>();
         for (int i = 1; i <= N; i++) {
             int newNum = 0;
             int tmp = i;
@@ -78,39 +71,39 @@ public class Confusing_Number_II {
                 tmp /= 10;
             }
             if (i != newNum) {
-                count++;
+                result.add(i);
             }
         }
-        return count;
+        return result;
     }
 
     public static void main(String[] args) {
-        Confusing_Number_II solution = new Confusing_Number_II();
+        Confusing_Number_III solution = new Confusing_Number_III();
 
         // test cases to cover all the possible situations.
-        int a = solution.confusingNumberII(100000);
+        List<Integer> a = solution.confusingNumberIII(100);
         System.out.println(a);
     }
 }
 ```
 
-|     Time Complexity     |                Space Complexity                |
-| :---------------------: | :--------------------------------------------: |
-|          O(N)           |                      O(5)                      |
-| (本思路在Leetcode上TLE) | 只要用一个有限的hashmap存对应的rotating number |
+| Time Complexity |                       Space Complexity                       |
+| :-------------: | :----------------------------------------------------------: |
+|      O(N)       |                    O(n + length(result))                     |
+|        -        | 只要用一个有限的hashmap存对应的rotating number；加上result的长度 |
 
 
 
-**Solution 2: DFS**
+**Solution 2: DFS** 
 
 ```java
 import java.util.*;
 
-public class Confusing_Number_II {
+public class Confusing_Number_III {
     Map<Integer, Integer> map = new HashMap<>();
-    int result = 0;
+    List<Integer> result = new ArrayList<>();
 
-    public int confusingNumberII(int N) {
+    public List<Integer> confusingNumberIII(int N) {
         map.put(6, 9);
         map.put(9, 6);
         map.put(0, 0);
@@ -122,7 +115,7 @@ public class Confusing_Number_II {
 
     private void dfs(int N, int cur) {
         if (isConfusingNumber(cur)) {
-            result++;
+            result.add(cur);
         }
         for (Integer i : map.keySet()) {
             if (cur * 10 + i <= N && cur * 10 + i != 0) {
@@ -145,18 +138,16 @@ public class Confusing_Number_II {
     }
 
     public static void main(String[] args) {
-        Confusing_Number_II solution = new Confusing_Number_II();
+        Confusing_Number_III solution = new Confusing_Number_III();
 
         // test cases to cover all the possible situations.
-        int a = solution.confusingNumberII(100000);
+        List<Integer> a = solution.confusingNumberIII(100);
         System.out.println(a);
     }
 }
 ```
 
-| Time Complexity |     Space Complexity      |
-| :-------------: | :-----------------------: |
-|    O(N / ?)     | O(5 + recursion tree高度) |
-|        -        |             -             |
-
-本题在思路上和上一题主体一致，唯一注意的是需要使用DFS来实现（基于confusing number必定由confusing number变换而来），时间复杂度上的分析不是很确定，等待后续完善。
+| Time Complexity |              Space Complexity              |
+| :-------------: | :----------------------------------------: |
+|      O(N)       | O(5 + length(result) + recursion tree高度) |
+|        -        |                     -                      |
