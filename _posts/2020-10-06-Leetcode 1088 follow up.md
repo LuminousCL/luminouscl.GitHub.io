@@ -43,7 +43,7 @@ The confusing numbers are [6,9,10,16,18,19].
 
 
 
-**Solution 1: 常规 ** 
+**Solution 1: 常规** 
 
 ```java
 import java.util.*;
