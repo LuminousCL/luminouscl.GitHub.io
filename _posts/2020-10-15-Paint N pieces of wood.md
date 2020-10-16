@@ -1,5 +1,5 @@
 ---
-title:  Plane Production Problem
+title:  Paint N Pieces of Wood
 tags:
   - 算法
 ---
