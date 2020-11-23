@@ -1,5 +1,5 @@
 ---
-title:  Leetcode 1088 follow up
+title:  【Leetcode】1088 follow up
 tags:
   - 算法
 ---

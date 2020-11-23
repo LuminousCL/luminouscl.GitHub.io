@@ -1,5 +1,5 @@
 ---
-title:  Maximum Product of Ascending subsequence
+title:  【Laioffer】Maximum Product of Ascending subsequence
 tags:
   - 算法
 ---

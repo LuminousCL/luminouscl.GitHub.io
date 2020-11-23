@@ -1,5 +1,5 @@
 ---
-title:  Leetcode 1088
+title:  【Leetcode】1088 Confusing Number II
 tags:
   - 算法
 ---

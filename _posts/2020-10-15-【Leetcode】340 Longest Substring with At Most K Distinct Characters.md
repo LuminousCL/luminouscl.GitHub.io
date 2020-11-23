@@ -1,5 +1,5 @@
 ---
-title:  Leetcode 340
+title:  【Leetcode】340 Longest Substring with At Most K Distinct Characters
 tags:
   - 算法
 ---

@@ -1,5 +1,5 @@
 ---
-title:  Leetcode 1056
+title:  【Leetcode】1056 Confusing Number
 tags:
   - 算法
 ---
